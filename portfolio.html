@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfólio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imgs/cabeleireiro1.png" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div id="header" >
+            <img src="imgs/logotipoOriginalAnaOpcional1.png"  alt="logotipo">
+        </div >
+    </header>
+    
+
+    <main id="portifoliomain">
+    <div class="container-fluid"  >
+        <div class="row" >
+            <div class="col-md-6">
+                <div class="carrossel">
+                    <div class="slides">
+
+                        <img src="imgs/Rectangle 44.png" alt="">
+                        <img src="imgs/Rectangle 45.png" alt="">
+                        <img src="imgs/Rectangle 46.png" alt="">
+                        <img src="imgs/Rectangle 47.png" alt="">
+                
+                    </div>
+                </div>
+            
+            </div>
+       
+         
+                <div class="col-md-6">
+            
+                    <div class="img-fluid" id="slogam">
+        
+                        <h6  id="delayedHeading" ><span style="font-size: 200%;font-family: NunitoSansEB; ">Portfolio</span>
+                        </h6>
+            
+                    </div>
+                    
+                </div> 
+                   
+        </div> 
+        <a href="index.html" style="color: black; padding-left: 93%;"><img src="imgs/voltar.png" alt=""style="width: 2%;">&nbsp;Voltar</a> 
+        
+    </div>
+    <script>
+     document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(function () {
+                var heading = document.getElementById('delayedHeading');
+                if (heading) {
+                    heading.classList.add('show');
+                }
+            }, 700);
+        });
+        const slides = document.querySelector('.slides');
+const images = document.querySelectorAll('.slides img');
+const totalImages = images.length;
+
+let currentIndex = 0;
+
+
+function slideToNext() {
+    currentIndex++;
+    
+    if (currentIndex === totalImages) {
+        slides.style.transition = "none"; 
+        slides.style.transform = `translateX(0)`; 
+        currentIndex = 0;
+        setTimeout(() => slides.style.transition = "transform 1s ease-in-out", 10);
+    } else {
+        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+}
+
+setInterval(slideToNext, 4000);
+
+    </script>
+    
+</body>
+</html>
