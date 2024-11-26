@@ -246,6 +246,10 @@ p:hover{
     padding-bottom: 0.5%;
    
 }
+#produzidopor hr {
+    margin: 10px auto;
+    width: 90%; 
+}
 
 #empresa{
     color: black;
