@@ -270,7 +270,7 @@ p:hover{
 
     #nave {
         font-size: 100%;
-        top: 195px; 
+        top: 165px; 
     }
 
     #nave .navbar-nav .nav-item {
@@ -312,6 +312,13 @@ p:hover{
         text-align: center; 
        
          
+    }
+    #contatosh1{
+        padding-bottom: 15%;
+        padding-top: 8%;
+        font-family: NunitoSansB;
+        text-align: center;
+    
     }
     
     #contatos{
