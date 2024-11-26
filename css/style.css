@@ -283,12 +283,13 @@ p:hover{
         padding-right: 1%;
     }
     #carrosselslogam{
-       
+        
         padding-bottom: 20%;
     }
     #slogam{
 
         padding-top: 1px;
+        padding-bottom: 200px;
         color: black;
         text-align: center;
         font-family: NunitoSansL;
