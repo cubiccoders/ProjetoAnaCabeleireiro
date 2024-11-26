@@ -87,10 +87,6 @@
     color: #D9BF75;
 }
 
-/*@media (max-width: 767px) {
-    {
-        
-}*/
 main{
     padding-top: 250px;
     padding-left: 2%;
@@ -211,11 +207,13 @@ footer{
     padding-top: 5%;
     font-family: NunitoSansL;
     text-align: center;
+   
 }
 
 #contatos img{
     width: 15%;
    padding-right: 5%;
+   
 
 }
 
@@ -256,4 +254,134 @@ p:hover{
 #empresa:hover{
     color: white;
 }
+
+
+@media (max-width: 767px) {
+    
+    #header img {
+        width: 70%; 
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #nave {
+        font-size: 100%;
+        top: 185px; 
+    }
+
+    #nave .navbar-nav .nav-item {
+        margin: 10px 0; 
+    }
+
+    main{
+        padding-top: 250px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    #carrosselslogam{
+       
+        padding-bottom: 20%;
+    }
+    #slogam{
+
+        padding-top: 1px;
+        color: black;
+        text-align: center;
+        font-family: NunitoSansL;
+    
+    }
+    
+    #servicos img {
+        width: 100%; 
+    }
+
+    footer .row {
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: center;  
+        padding-top:5% ;
+    }
+    
+    footer .col-md-4 {
+        flex: 1; 
+        max-width: 33%; 
+        text-align: center; 
+       
+         
+    }
+    
+    #contatos{
+        padding-left: 1px;
+        font-size: 70%;
+
+    }
+    #contatos img{
+        width: 20%;
+    }
+    #mapa{
+        padding-left: 1%;
+        font-size: 70%;
+    }
+    #mapa img{
+        width: 100%;
+
+    }
+    #produzidopor {
+        text-align: center;
+        font-size: 12px; 
+        
+    }
+    
+    #produzidopor hr {
+        margin: 10px auto;
+        width: 90%; 
+    }
+
+}
+
+
+@media (min-width: 1910px) {
+    #header img {
+        padding-top: 2%;
+        padding-bottom: 1%;
+        width: 35%; 
+    }
+
+    #nave {
+        padding-top:130px ;
+        font-size: 150%; 
+    }
+
+    #nave .navbar-nav .nav-item {
+        margin-right: 100px; 
+        margin-left: 100px;
+    }
+    main{
+        padding-top: 450px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #slogam {
+        padding-top: 10%; 
+    }
+    #servicosh1{
+    padding-top: 1%;
+    
+    }
+    #contatosh1{
+        padding-top: 2%;
+        padding-bottom:3% ;
+
+    }
+    #mapa img {
+        width: 50%;
+    }
+
+    footer {
+        padding-top: 50px; 
+        padding-bottom:10px ;
+    }
+}
+
 
