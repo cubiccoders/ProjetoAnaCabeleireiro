@@ -270,7 +270,7 @@ p:hover{
 
     #nave {
         font-size: 100%;
-        top: 165px; 
+        top: 135px; 
     }
 
     #nave .navbar-nav .nav-item {
@@ -278,21 +278,24 @@ p:hover{
     }
 
     main{
-        padding-top: 250px;
+        padding-top: 200px;
         padding-left: 1%;
         padding-right: 1%;
     }
-    #carrosselslogam{
-        
-        padding-bottom: 20%;
-    }
+    
     #slogam{
-
-        padding-top: 1px;
-        padding-bottom: 200px;
+        padding-top :1px !important;
+        padding-bottom: 50px;
         color: black;
         text-align: center;
         font-family: NunitoSansL;
+    
+    }
+    #servicosh1{
+       margin-top:  -100px;
+        padding-bottom: 10%;
+        font-family: NunitoSansB;
+        text-align: center;
     
     }
     
@@ -351,10 +354,12 @@ p:hover{
     }
     #delayedHeading{
         font-size: 80%;
+        margin-top: -200px;
+        
     }
     #delayedHeadingportfolio{
         font-size: 80%;
-        margin-top: -395px;
+        
     }
 
     #voltar{
