@@ -204,16 +204,29 @@ footer{
 }
 
 
-#contatos{
+#contatostel{
     padding-top: 5%;
     font-family: NunitoSansL;
-    text-align: center;
+    padding-left: 5%;
+    
+}
+#contatostel img{
+    width: 15%;
+    padding-right: 5%;
    
+
+}
+#contatosmidias{
+    padding-top: 5%;
+    font-family: NunitoSansL;
+    padding-left: 17%;
+    
 }
 
-#contatos img{
-    width: 15%;
-   padding-right: 5%;
+
+#contatosmidias img{
+    width: 25%;
+    padding-right: 5%;
    
 
 }
@@ -262,6 +275,21 @@ p:hover{
 
 #minhahistoria img{
     width: 50%;
+}
+
+#voltarhistoria{
+    color:black;
+    padding-left: 93%;
+}
+#voltarhistoria img{
+width: 2%;
+}
+#voltarportfolio{
+color:black;
+padding-left: 93%;
+}
+#voltarportfolio img{
+width: 2%;
 }
 @media (max-width: 767px) {
     
@@ -329,13 +357,21 @@ p:hover{
     
     }
     
-    #contatos{
-        padding-left: 1px;
+    #contatostel{
+        padding-left: 2%;
+        font-size: 60%;
+
+    }
+    #contatostel img{
+        width: 30%;
+    }
+    #contatosmidias{
+        padding-left: 2%;
         font-size: 70%;
 
     }
-    #contatos img{
-        width: 20%;
+    #contatosmidias img{
+        width: 30%;
     }
     #mapa{
         padding-left: 1%;
@@ -366,8 +402,8 @@ p:hover{
     }
     #slogamportfolio{
         margin-top: -150px;
-         text-align: center;
-         font-family: NunitoSansL;
+        text-align: center;
+        font-family: NunitoSansL;
      
     }
 
@@ -392,20 +428,7 @@ p:hover{
     
 }
 
-#voltarhistoria{
-        color:black;
-        padding-left: 93%;
-}
-#voltarhistoria img{
-    width: 2%;
-}
-#voltarportfolio{
-    color:black;
-    padding-left: 93%;
-}
-#voltarportfolio img{
-width: 2%;
-}
+
 
 @media (min-width: 1910px) {
     #header img {
