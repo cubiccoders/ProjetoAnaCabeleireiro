@@ -348,10 +348,32 @@ p:hover{
         margin: 10px auto;
         width: 90%; 
     }
+    #delayedHeading{
+        font-size: 80%;
+    }
+    #delayedHeadingportfolio{
+        font-size: 80%;
+        margin-top: -395px;
+    }
 
+    #voltar{
+        padding-left: 75% !important;
+    }
+
+    #voltar img{
+        width: 5%!important;
+    }
+    
 }
 
-
+#voltar{
+        color:black;
+        padding-left: 93%;
+}
+#voltar img{
+    width: 2%;
+}
+    
 @media (min-width: 1910px) {
     #header img {
         padding-top: 2%;
@@ -368,12 +390,21 @@ p:hover{
         margin-right: 100px; 
         margin-left: 100px;
     }
+    #minhahistoria{
+        padding-top: 0.5%;
+        
+    }
+    
     main{
         padding-top: 450px;
         padding-left: 5%;
         padding-right: 5%;
     }
-
+    #portifoliomain{
+        padding-top: 450px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
     #slogam {
         padding-top: 10%; 
     }
