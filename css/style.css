@@ -92,10 +92,11 @@ main{
     padding-left: 2%;
     padding-right: 2%;
 }
-#portifoliomain{
+#portfoliomain{
     padding-top: 220px;
     padding-left: 2%;
     padding-right: 2%;
+    text-align: center;
 }
 #carrosselslogam{
     padding-bottom: 5%;
@@ -259,7 +260,9 @@ p:hover{
     color: white;
 }
 
-
+#minhahistoria img{
+    width: 50%;
+}
 @media (max-width: 767px) {
     
     #header img {
@@ -284,15 +287,16 @@ p:hover{
     }
     
     #slogam{
-        padding-top :20px !important;
+        margin-top: -250px;
         padding-bottom: 50px;
         color: black;
         text-align: center;
         font-family: NunitoSansL;
     
     }
+    
     #servicosh1{
-       margin-top:  -100px;
+        margin-top: -20px;
         padding-bottom: 10%;
         font-family: NunitoSansB;
         text-align: center;
@@ -318,7 +322,7 @@ p:hover{
          
     }
     #contatosh1{
-        padding-bottom: 15%;
+        padding-bottom: 20%;
         padding-top: 8%;
         font-family: NunitoSansB;
         text-align: center;
@@ -351,37 +355,58 @@ p:hover{
     #produzidopor hr {
         margin: 10px auto;
         width: 90%; 
+
     }
     #delayedHeading{
         font-size: 80%;
-        
-        
+          
     }
-    #delayedHeadingportfolio{
-        font-size: 80%;
-        margin-top: -430px;
-        
+    #portfoliomain{
+        padding-top: 150px;
+    }
+    #slogamportfolio{
+        margin-top: -150px;
+         text-align: center;
+         font-family: NunitoSansL;
+     
     }
 
-    #voltar{
+    #voltarportfolio{
+       
+        padding-left: 75% !important;
+    }
+    #voltarportfolio img{
+        width: 5%!important;
+    }
+    #voltarhistoria{
         
         padding-left: 75% !important;
     }
-
-    #voltar img{
+    
+    #voltarhistoria img{
         width: 5%!important;
+    }
+    #minhahistoria img{
+        width: 90%;
     }
     
 }
 
-#voltar{
+#voltarhistoria{
         color:black;
         padding-left: 93%;
 }
-#voltar img{
+#voltarhistoria img{
     width: 2%;
 }
-    
+#voltarportfolio{
+    color:black;
+    padding-left: 93%;
+}
+#voltarportfolio img{
+width: 2%;
+}
+
 @media (min-width: 1910px) {
     #header img {
         padding-top: 2%;
@@ -408,10 +433,12 @@ p:hover{
         padding-left: 5%;
         padding-right: 5%;
     }
-    #portifoliomain{
+
+    #portfoliomain{
         padding-top: 450px;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 2%;
+        padding-right: 2%;
+        text-align: center;
     }
     #slogam {
         padding-top: 10%; 
