@@ -260,13 +260,13 @@ p:hover{
     
     #header img {
         width: 70%; 
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding-top: 6%;
+        padding-bottom: 6%;
     }
 
     #nave {
         font-size: 100%;
-        top: 185px; 
+        top: 195px; 
     }
 
     #nave .navbar-nav .nav-item {
@@ -299,7 +299,7 @@ p:hover{
         display: flex; 
         flex-wrap: wrap; 
         justify-content: center;  
-        padding-top:5% ;
+        padding-top:7% ;
     }
     
     footer .col-md-4 {
@@ -329,6 +329,7 @@ p:hover{
     #produzidopor {
         text-align: center;
         font-size: 12px; 
+        padding-bottom: 2%;
         
     }
     
