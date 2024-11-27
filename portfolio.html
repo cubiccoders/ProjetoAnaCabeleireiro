@@ -25,8 +25,20 @@
     <main id="portfoliomain">
         <div class="container-fluid"  >
             <div class="row" >
+
                 <div class="col-md-6">
-                    <div class="carrossel">
+            
+                    <div class="img-fluid" id="delayedHeadingportfolio" >
+        
+                        <h6 id="delayedHeadingportfoliospam">Portfolio <br><img src="imgs/setaPortfolio.png" alt="Seta">
+                        </h6>
+            
+                    </div>
+                    
+                </div> 
+
+                <div class="col-md-6">
+                    <div class="carrosselportfolio">
                         <div class="slides">
 
                             <img src="imgs/Rectangle 44.png" alt="">
@@ -38,55 +50,37 @@
                     </div>
             
                 </div>
-       
-         
-                <div class="col-md-6">
-            
-                    <div class="img-fluid" id="slogamportfolio">
-        
-                        <h6  id="delayedHeadingportfolio" ><span style="font-size: 200%;font-family: NunitoSansEB; ">Portfolio</span>
-                        </h6>
-            
-                    </div>
-                    
-                </div> 
                    
             </div> 
-            <a href="index.html" id="voltarportfolio"><img src="imgs/voltar.png" alt="voltar"">&nbsp;Voltar</a> 
+            <a href="index.html" id="voltarportfolio"><br><br>&nbsp;Voltar</a> 
         
-         </div>
+        </div>
     </main>
 
     <script>
+     
      document.addEventListener("DOMContentLoaded", function () {
-            setTimeout(function () {
-                var heading = document.getElementById('delayedHeading');
-                if (heading) {
-                    heading.classList.add('show');
-                }
-            }, 700);
-        });
-        const slides = document.querySelector('.slides');
-const images = document.querySelectorAll('.slides img');
-const totalImages = images.length;
+    const slides = document.querySelector('.slides');
+    const images = document.querySelectorAll('.slides img');
+    const totalImages = images.length;
+    let currentIndex = 0;
 
-let currentIndex = 0;
-
-
-function slideToNext() {
-    currentIndex++;
-    
-    if (currentIndex === totalImages) {
-        slides.style.transition = "none"; 
-        slides.style.transform = `translateX(0)`; 
-        currentIndex = 0;
-        setTimeout(() => slides.style.transition = "transform 1s ease-in-out", 10);
-    } else {
-        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    function slideToNext() {
+        currentIndex++;
+        if (currentIndex === totalImages) {
+            slides.style.transition = "none"; 
+            slides.style.transform = `translateX(0)`; 
+            currentIndex = 0;
+            setTimeout(() => slides.style.transition = "transform 1s ease-in-out", 10);
+        } else {
+            slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
     }
-}
 
-setInterval(slideToNext, 4000);
+    const portfolioButton = document.getElementById('delayedHeadingportfolio');
+    portfolioButton.addEventListener('click', slideToNext);
+});
+
 
     </script>
     
